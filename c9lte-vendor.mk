@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/lib64/libsec-ril.so:system/vendor/lib64/libsec-ril.so \
     vendor/samsung/c9lte/proprietary/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
+    vendor/samsung/c9lte/proprietary/lib64/libsec-ril-dsds.so:system/vendor/lib64/libsec-ril-dsds.so \
+    vendor/samsung/c9lte/proprietary/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
     vendor/samsung/c9lte/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/samsung/c9lte/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/samsung/c9lte/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -30,9 +32,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/c9lte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/c9lte/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
+    vendor/samsung/c9lte/proprietary/lib64/hw/sensorhub.msm8952.so:system/lib64/hw/sensorhub.msm8952.so \
     vendor/samsung/c9lte/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
-    vendor/samsung/c9lte/proprietary/vendor/lib64/libyasalgo.so:system/vendor/lib64/libyasalgo.so \
     vendor/samsung/c9lte/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/samsung/c9lte/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/c9lte/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -45,18 +47,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/samsung/c9lte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/c9lte/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/samsung/c9lte/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/samsung/c9lte/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/samsung/c9lte/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/samsung/c9lte/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/c9lte/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/samsung/c9lte/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/samsung/c9lte/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
-    vendor/samsung/c9lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/c9lte/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/samsung/c9lte/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
