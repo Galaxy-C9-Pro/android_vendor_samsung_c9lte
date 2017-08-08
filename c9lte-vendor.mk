@@ -16,7 +16,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/samsung/c9lte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/samsung/c9lte/proprietary/bin/btnvtool:system/bin/btnvtool \
+	vendor/samsung/c9lte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/c9lte/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/c9lte/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/samsung/c9lte/proprietary/bin/pm-service:system/bin/pm-service \
@@ -24,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/c9lte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/c9lte/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/samsung/c9lte/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/samsung/c9lte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/c9lte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/c9lte/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -48,11 +50,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/c9lte/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/c9lte/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/samsung/c9lte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/c9lte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/c9lte/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
     vendor/samsung/c9lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c9lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/c9lte/proprietary/lib64/hw/sensors.MSM8976.so:system/lib64/hw/sensors.MSM8976.so \
+    vendor/samsung/c9lte/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
     vendor/samsung/c9lte/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/samsung/c9lte/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
     vendor/samsung/c9lte/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
@@ -214,6 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/samsung/c9lte/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/samsung/c9lte/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
