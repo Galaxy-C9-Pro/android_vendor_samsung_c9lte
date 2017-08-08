@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/c9lte/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
     vendor/samsung/c9lte/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
-    vendor/samsung/c9lte/proprietary/lib/hw/sensorhub.msm8952.so:system/lib/hw/sensorhub.msm8952.so \
+    vendor/samsung/c9lte/proprietary/lib/hw/sensorhubs.msm8952.so:system/lib/hw/sensorhubs.msm8952.so \
     vendor/samsung/c9lte/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/samsung/c9lte/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/c9lte/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
     vendor/samsung/c9lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c9lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/c9lte/proprietary/lib64/hw/sensors.MSM8976.so:system/lib64/hw/sensors.MSM8976.so \
     vendor/samsung/c9lte/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
     vendor/samsung/c9lte/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/samsung/c9lte/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
