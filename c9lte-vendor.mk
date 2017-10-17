@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c9lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/c9lte/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
+    vendor/samsung/c9ltechn/proprietary/lib/libprotobuf-cpp-lite.so:system/lib/libprotobuf-cpp-lite.so \
     vendor/samsung/c9lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/c9lte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/c9lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
@@ -47,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/c9lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/c9lte/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so \
+    vendor/samsung/c9ltechn/proprietary/lib64/libprotobuf-cpp-lite.so:system/lib64/libprotobuf-cpp-lite.so \
     vendor/samsung/c9lte/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
     vendor/samsung/c9lte/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/samsung/c9lte/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
